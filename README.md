@@ -12,10 +12,6 @@ Here’s an overview of Markdown syntax that you can use anywhere on GitHub.com 
 ## This is an \<h2\> tag
 ###### This is an \<h6\> tag
 
-    # This is an <h1> tag
-    ## This is an <h2> tag
-    ###### This is an <h6> tag
-
 # Emphasis
 
 *This text will be italic*
@@ -26,14 +22,6 @@ __This will also be bold__
 
 _You **can** combine them_
 
-    *This text will be italic*
-    _This will also be italic_
-    
-    **This text will be bold**
-    __This will also be bold__
-    
-    _You **can** combine them_
-
 # Lists
 
 ## Unordered
@@ -43,13 +31,6 @@ _You **can** combine them_
     * Item 2a
     * Item 2b
 
-```
-* Item 1
-* Item 2
-    * Item 2a
-    * Item 2b
-```
-
 ## Ordered
 
 1. Item 1
@@ -58,43 +39,47 @@ _You **can** combine them_
     * Item 3a
     * Item 3b
 
-```
-1. Item 1
-2. Item 2
-3. Item 3
-    * Item 3a
-    * Item 3b
-```
-
 # Images
 
 ![Git Logo](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png)
 
-    ![Git Logo](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png)
     Format: ![Alt Text](url)
 
-#Links
+# Links
 
 [GitHub](http://github.com)
 
-    [GitHub](http://github.com)
+    Format: [Text](url)
 
-#Blockquotes
+# Blockquotes
 
 As Kanye West said:
 
 > We're living the future so
 > the present is our past.
 
-    As Kanye West said:
-    
-    > We're living the future so
-    > the present is our past.
-
 # Inline code
 
-I think you should use an
-`<addr>` element here instead.
+I think you should use the `t()` function here.
 
-    I think you should use an
-    `<addr>` element here instead.
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+
+# Task Lists
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+# Tables
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
