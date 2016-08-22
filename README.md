@@ -68,10 +68,10 @@ _You **can** combine them_
 
 # Images
 
-![GitHub Logo](http://github.com/images/logo.png)
+![Git Logo](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png)
 Format: ![Alt Text](url)
 
-    ![GitHub Logo](http://github.com/images/logo.png)
+    ![Git Logo](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png)
     Format: ![Alt Text](url)
 
 #Links
